@@ -1,0 +1,55 @@
+    body
+    {
+        background-color: rgb(42, 42, 42);
+        color: white;
+    }
+    .navtop
+    {
+        background-color: brown;
+        height: 50px;
+        
+    }
+
+    .navtop ul
+    {
+    list-style-type: none; /*pra tirar o pontilhado*/
+    padding: 2px;/*Pra tirar o espaço vazio deixado pelo pontilhado*/
+    display: flex;
+    font-size: 25px;
+    
+        justify-content: center; /*Se colocar na div pura, 
+        fica centralizado mas a lista continua vertical, e 
+        se colocar na ul, aí sim fica tudo enfileirado*/
+    
+    }
+    .navtop li{
+        margin: 10px; /*Pra deixar os elementos da lista separadinhos*/
+    }
+    
+    .navtop a
+    {
+        color: white; /*Deixa os hyperlinks brancos em vez daquele roxo feio*/
+        text-decoration: none;/* Pra tirar o sublinhado feio do hyperlink*/
+    }
+
+    .navtop a:hover
+    {
+        background-color: rgb(115, 20, 37);
+    }
+
+    /*Layout*/
+    /*Layout*/
+    .layout
+    {
+        margin: 5px;
+
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+
+    /*Layout*/
+    /*Layout*/
+
