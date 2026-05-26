@@ -1,0 +1,29 @@
+body
+    {
+        background-color: rgb(42, 42, 42);
+        color: white;
+        height: 100%;
+    }
+
+
+.ayuwoki
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: fade-up 1.3s;
+}
+
+.ayuwoki img
+{
+width: 50%;
+}
+
+@keyframes fade-up 
+{
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+}
