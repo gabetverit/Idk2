@@ -1,0 +1,140 @@
+body 
+{
+background-color: rgb(23, 23, 33);
+display: flex; /*O flex modifica a posição dos childs dentro do parent, e não ele mesmo, pra ele alinhar a se mesmo, e ele deve usar align-self ou justify self*/
+justify-content: center;
+align-content: center;
+
+}
+
+.borda_exterior
+{   
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: rgb(14, 12, 17);
+    width: 450px; /*Para fazer uma caixa sem texto, é necessário especificar a largura e altura*/
+    height: 600px;
+    border-radius: 15px;
+
+}
+
+.borda_interior
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: rgb(73, 71, 84);;
+    width: 430px;
+    height: 580px;
+    border-radius: 15px;
+}
+
+#texto
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    margin-top: 10px;
+    background: rgb(34, 59, 53);;
+    width: 420px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    font-size: 50px;
+    font-family: "Bitcount Grid Single", system-ui;
+    color: white;
+}
+
+.botoes
+{
+    display: flex;
+    justify-self: center;
+    align-self: end;
+    color: white;
+    background-color: gray;
+    border: 2px solid black;
+    height: 450px;
+    width: 500px;
+    margin: 10px;
+
+}
+
+.digitos
+{
+    display: grid;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    font-size: 45px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1 fr 1fr 1fr;
+    width: 300px;
+    
+}
+
+.digitos button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin: 0;
+    background: linear-gradient(gray, rgb(31, 31, 31));
+    border: 1px solid rgb(80, 80, 80);
+    color: white;
+    font-family: "Bitcount Grid Single", system-ui;
+    
+}
+
+.operadores
+{
+    font-size: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 290px;
+
+}
+
+.operadores button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin: 0;
+    background: linear-gradient(gray, rgb(31, 31, 31));
+    border: 1px solid rgb(80, 80, 80);
+    color: white;
+    font-family: "Bitcount Grid Single", system-ui;
+}
+
+.resultado
+{
+    display: flex;
+    margin: 0;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 117px;
+    height: 159px
+}
+.resultado button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    margin: 0;
+    background: linear-gradient(gray, rgb(31, 31, 31));
+    border: 1px solid rgb(80, 80, 80);
+    color: white;
+    height: 158px;
+    width: 160px;
+    font-family: "Bitcount Grid Single", system-ui;
+    
+}
+
