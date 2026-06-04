@@ -41,18 +41,25 @@
     /*Layout*/
     .layout
     {
-        display:flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
         margin: 50px;
     }
 
     .layout a
     {
-        
+        display: flex;
+        justify-self: center;
+        justify-content: center;
+        width: 550px;
         color: white; /*Deixa os hyperlinks brancos em vez daquele roxo feio*/
         text-decoration: none;/* Pra tirar o sublinhado feio do hyperlink*/
         font-size: 50px;
+    }
+
+    .layout a:hover
+    {
+        background-color: blue;
     }
     
 
