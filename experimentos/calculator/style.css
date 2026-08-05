@@ -16,6 +16,7 @@ align-content: center;
     height: 580px;
     border-radius: 15px;
     border: solid 4px rgb(15, 15, 15);
+
 }
 
 
@@ -144,4 +145,23 @@ align-content: center;
 }
 
 
+#voltar
+{
+    position: absolute;
 
+    display: flex;
+    justify-self: left;
+    margin-right: 70%;
+    margin-top: 2%;
+    text-decoration: none;
+      color: white;
+      transition: all 0.5s ease-out;
+      font-size: 50px;
+      border-radius: 10px;
+}
+
+#voltar:hover
+{
+     background-color: white;
+    color: black;
+}
