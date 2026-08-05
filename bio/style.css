@@ -1,0 +1,104 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+#navtop ul
+{
+    background: none;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+
+    animation: fadeIn 2s ease-in-out;
+}
+
+#navtop li
+{
+    list-style-type: none;
+    margin-right: 60px;
+    font-size: 30px;
+    height: 35px;
+    display:flex;
+    margin-top: 20px;
+
+
+    text-decoration: none;
+    color: white;
+
+    border-radius: 10px;
+
+    transition: all 0.5s ease-out;
+}
+
+
+#navtop a
+{
+      text-decoration: none;
+      color: white;
+      transition: all 0.5s ease-out;
+
+      border-radius: 10px;
+}
+
+
+#bio h2
+{
+    display: flex;
+    font-size:60px;
+    justify-self: center;
+    text-decoration:dashed;
+
+
+    animation: fadeIn 2.3s ease-in-out;
+}
+
+
+#eugosto
+{
+    display: flex;
+    font-size: 40px;
+    justify-self: center;
+
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+#e_isto
+{
+    display: flex;
+    font-size: 30px;
+    justify-self: center;
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+
+
+/*Animações*/
+/*Animações*/
+/*Animações*/
+@keyframes fadeIn
+{
+    from {opacity: 0;
+          transform: translateY(25%);}
+
+    to {opacity: 1;
+          transform: translateY(0%);}
+}
+
+#navtop li:hover,
+#navtop li:hover,
+#navtop a:hover,
+#navtop a:focus
+{
+    background-color: white;
+    color: black;
+}
+
+
+
+/*Animações*/
+/*Animações*/
+/*Animações*/
+

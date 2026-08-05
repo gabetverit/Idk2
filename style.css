@@ -1,0 +1,135 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+#navtop ul
+{
+    background: none;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+
+    animation: fadeIn 2s ease-in-out;
+}
+
+#navtop li
+{
+    list-style-type: none;
+    margin-right: 60px;
+    font-size: 30px;
+    height: 35px;
+    display:flex;
+    margin-top: 20px;
+
+
+    text-decoration: none;
+    color: white;
+
+    border-radius: 10px;
+
+    transition: all 0.5s ease-out;
+}
+
+
+#navtop a
+{
+      text-decoration: none;
+      color: white;
+      transition: all 0.5s ease-out;
+
+      border-radius: 10px;
+}
+
+
+
+/*Boas vindas*/
+/*Boas vindas*/
+/*Boas vindas*/
+
+#boasvindas
+{
+    text-align: center; /*Tem que ser na div em vez do texto, tipo justify-content*/
+}
+#boasvindas h2
+{
+    display: flex;
+    font-size: 50px;
+    justify-self: center;
+    
+    animation: fadeIn 2.3s ease-in-out;
+}
+
+#boasvindas h3
+{
+    display: flex;
+    font-size: 40px;
+    justify-self: center;
+
+    animation: fadeIn 2.5s ease-in-out;
+}
+
+/*Boas vindas*/
+/*Boas vindas*/
+/*Boas vindas*/
+
+#versao
+{
+    display: flex;
+    font-size: 40px;
+    justify-self: center;
+
+    animation: fadeIn 2.2s ease-in-out;
+}
+#v_div
+{
+     display: flex;
+    font-size: 20px;
+    justify-self: center;
+
+    animation: fadeIn 2.5s ease-in-out;
+}
+#v_div a
+{
+     text-decoration: none;
+      color: white;
+      transition: all 0.5s ease-out;
+
+      border-radius: 10px;
+}
+
+
+
+
+
+/*Animações*/
+/*Animações*/
+/*Animações*/
+@keyframes fadeIn
+{
+    from {opacity: 0;
+          transform: translateY(25%);}
+
+    to {opacity: 1;
+          transform: translateY(0%);}
+}
+
+#navtop li:hover,
+#navtop li:hover,
+#navtop a:hover,
+#navtop a:focus,
+#v_div a:hover,
+#v_div a::after
+{
+    background-color: white;
+    color: black;
+}
+
+
+
+/*Animações*/
+/*Animações*/
+/*Animações*/
+

@@ -1,0 +1,147 @@
+body 
+{
+background-color: black;
+display: flex; /*O flex modifica a posição dos childs dentro do parent, e não ele mesmo, pra ele alinhar a se mesmo, e ele deve usar align-self ou justify self*/
+justify-content: center;
+align-content: center;
+}
+
+#base
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: rgb(26, 26, 26);
+    width: 430px;
+    height: 580px;
+    border-radius: 15px;
+    border: solid 4px rgb(15, 15, 15);
+}
+
+
+#visor
+{
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 0px;    
+    font-size: 45px;
+    width: 423px;
+    max-width: 423px;
+    height: 140px;  
+    
+    border: solid 2px orange;
+    border-radius: 15px;
+
+    
+}
+
+/*#text
+{
+    border: none;
+    background: none;
+    width: 420px;
+    border-radius: 15px;
+    color: orange;
+
+    font-size: 60px;
+}*/
+
+#text
+{
+    display: flex;
+    align-self: center;
+    margin-left: 15px;
+    border: none;
+    background: none;
+    border-radius: 15px;
+    color: orange;
+
+    font-size: 60px;
+    overflow: auto;
+}
+
+#grupoDeBotoes
+{
+    display:flex;
+    margin-top:0px;
+    margin-left: 10px;
+}
+
+#numbers
+{
+    /*display: flex;
+    justify-self: center;
+    align-self: end;
+    color: white;
+    background-color: gray;
+    border: 2px solid black;
+    height: 450px;
+    width: 500px;
+    margin: 10px;*/
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+    width:300px;
+    height: 360px;
+    max-height: 360px;
+    margin-top: 30px;
+    
+}
+
+#numbers button
+{
+    background-color: orange;
+    border: none;
+    border-radius: 100%;
+    margin: 10px;
+    margin-bottom: 0px;
+    height: 80px;
+
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+
+#operators
+{
+    display: grid;
+    width: 85px;
+    height: 370;
+
+    margin-left: 20px;
+}
+
+
+
+#operators button
+{
+    background-color: rgb(73, 133, 235);
+    border: none;
+    border-radius: 100%;
+    margin: 10px;
+    height: 60px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: white;
+}
+
+#del
+{
+    width: 50px;
+}
+
+#del_div
+{
+    width: 50px;
+}
+
+
+

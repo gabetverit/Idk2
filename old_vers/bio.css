@@ -1,0 +1,64 @@
+    body
+    {
+        background-color: rgb(42, 42, 42);
+        color: white;
+    }
+    .navtop
+    {
+        background-color: brown;
+        height: 50px;
+        
+    }
+
+    .navtop ul
+    {
+    list-style-type: none; /*pra tirar o pontilhado*/
+    padding: 2px;/*Pra tirar o espaço vazio deixado pelo pontilhado*/
+    display: flex;
+    font-size: 25px;
+    
+        justify-content: center; /*Se colocar na div pura, 
+        fica centralizado mas a lista continua vertical, e 
+        se colocar na ul, aí sim fica tudo enfileirado*/
+    
+    }
+    .navtop li{
+        margin: 10px; /*Pra deixar os elementos da lista separadinhos*/
+    }
+    
+    .navtop a
+    {
+        color: white; /*Deixa os hyperlinks brancos em vez daquele roxo feio*/
+        text-decoration: none;/* Pra tirar o sublinhado feio do hyperlink*/
+    }
+
+    .navtop a:hover
+    {
+        background-color: rgb(115, 20, 37);
+    }
+
+    /*Layout*/
+    /*Layout*/
+    #box1
+
+    {
+        background-image:linear-gradient(rgb(29, 29, 29), rgb(13, 13, 13), rgb(52, 3, 3), rgb(93, 4, 4)   );
+        border-radius: 15px;
+        margin-inline: 10px;
+
+        text-align: center; /*Não use display flex, ele pode fazer o código interpretar que o texto é um bloco e tirar o efeito dos parágrafos*/
+        font-size: 40px;
+
+        height: 15750px;
+        overflow: hidden;
+        /*border: solid white;*/ 
+        /*Não use "align-content" quando tiver que centralizar apenas 1 parágrafo e sim "align-items"*/
+        
+
+        
+    }   
+    
+
+    /*Layout*/
+    /*Layout*/
+
